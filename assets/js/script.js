@@ -1,0 +1,6 @@
+$( function() {
+   
+    $( "#simId" ).autocomplete({
+      source: '';
+    });
+  } );
