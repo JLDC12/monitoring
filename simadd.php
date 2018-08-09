@@ -13,6 +13,7 @@
 
 		mysqli_query($connection,"insert into siminventory(`userId`,`subscriber`,`IMEI`, `Account`, `PrimaryNumber`, `Description`, `PLAN`, `PurchaseDate`)values('$userId','$sim','$imei','$acctnumber','$number','$description','$plan','$date')")or die(mysqli_error($connection));
 	}
+	if(){}
 ?>
 
 <!DOCTYPE html>
