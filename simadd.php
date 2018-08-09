@@ -13,7 +13,7 @@
 
 		mysqli_query($connection,"insert into siminventory(`userId`,`subscriber`,`IMEI`, `Account`, `PrimaryNumber`, `Description`, `PLAN`, `PurchaseDate`)values('$userId','$sim','$imei','$acctnumber','$number','$description','$plan','$date')")or die(mysqli_error($connection));
 	}
-	if(){}
+	
 ?>
 
 <!DOCTYPE html>
@@ -53,12 +53,9 @@
 				</div>
 			</div>
 		</div>
-
+			<label>Search</label>
+			<input type="text" name="txtsearch" Placeholder="Search" class="form-control"><br/><br/>
 		<div class="table table-responsive">
-			<div class="well">
-				<input type="text" name="txtsearch" Placeholder="Search" class="form-control" style="width:200px;padding-right:10px;">
-			</div>
-			
 			<table class="table table-bordered table-striped">
 				 <th>Subscriber</th>
 				 <th>IMEI</th>
