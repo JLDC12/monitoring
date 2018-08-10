@@ -53,8 +53,18 @@
 				</div>
 			</div>
 		</div>
-			<label>Search</label>
-			<input type="text" name="txtsearch" Placeholder="Search" class="form-control"><br/><br/>
+			<form class="form-inline well text-right">
+			
+				<select name="cmblimit" class="form-control">
+					<option>10</option>
+					<option>25</option>
+					<option>50</option>
+					<option>100</option>
+				</select>
+				<label>Search</label>
+				<input type="text" name="txtsearch" Placeholder="Search" class="form-control">
+				<input type="submit" name="btnsearch" class="btn btn-default" value="Search">
+			</form>
 		<div class="table table-responsive">
 			<table class="table table-bordered table-striped">
 				 <th>Subscriber</th>
